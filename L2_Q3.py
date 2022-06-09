@@ -1,0 +1,6 @@
+file_object = open('readme.txt','a+')
+file_object.write('Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+file_object = open('readme.txt','r')
+p = file_object.read()
+print(p)
+file_object.close()
